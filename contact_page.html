@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <title>My contact page</title>
+    <meta charset = "utf-8">
+    <link rel = "stylesheet" href = "contact_page.css">
+    
+    <body>
+        <!--Navbar-->
+        <div class = "top">
+            <a href = "main.html" style= "text-decoration: none;">Main Page</a>
+        </div>
+
+        <!--Right side Navbar-->
+        <div class = "right">
+            <a href = "resume_page.html" style = "text-decoration: none;">Resume</a>
+            <a href = "project_page.html" style = "text-decoration: none;">Projects</a>
+            <a href = "contact_page.html" style = "text-decoration: none;">Contact</a>
+        </div>
+
+        <div class = "contact_content_area">
+            <div class = "contact">
+                <h1>Contacts</h1>
+                <p>Looking forward to hear from you</p>
+            </div>
+
+            <div class = "contact_ways">
+                <h3>Phone</h3>
+                <p>8XX-XXX-XXX8</p>
+            </div>
+
+            <div class = "contact_ways">
+                <h3 class = "contact_ways">Email</h3>
+                <p class = "contact_ways">jessicaXXXX@XXX.com</p>
+            </div>
+
+            <div class = "contact_ways">
+                <h3 class = "contact_wayII">LinkedIn</h3>
+                <p class = "contact_wayII">linkedin.com/in/chienchi</p>
+            </div>
+            
+            <div class = "contact_ways">
+                <h3 class = "contact_wayIII">Github</h3>
+                <p class = "contact_wayIII">https://github.com/JessicaLiuC</p>
+            </div>
+        </div>
+
+        <!--contact form to fill out (connect with php and mysql)-->
+        <form action = "contact.php" method = "post">
+            First Name: <input type = "text" name = "First_Name">
+            Last Name: <input type = "text" name = "Last_Name">
+            Email: <input type = "text" name = "email">
+            Message: <textarea name = "comment" rows="5" cols = "40"></textarea>
+
+            <input type = "submit" name = "Submit">
+        </form>
+    </body>
+</html>

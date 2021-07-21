@@ -1,0 +1,84 @@
+body {
+    background-color: rgb(214, 198, 178);
+}
+
+.top{
+    position: absolute;
+    top: 20px;
+    font-size: 18px;
+    left: 50px;
+    letter-spacing: normal;
+}
+
+.right{
+    position: absolute;
+    top: 20px;
+    font-size: 18px;
+    word-spacing: 20px;
+    right: 50px;
+    letter-spacing: normal;
+}
+
+a{
+    color: rgb(58, 58, 58);
+    font-family: "Helvetica";
+}
+
+.contact_content_area{
+    position: absolute;
+    top: 120px;
+    left: 300px;
+}
+
+.contact{
+    height: 70px;
+    font-size: 18px;
+    line-height: 0.5;
+}
+
+.contact_ways{
+    position: relative;
+    top: 20px;
+    line-height: 0.5;
+}
+
+.contact_wayII{
+    position: relative;
+    top: 40px;
+}
+
+.contact_wayIII{
+    position: relative;
+    top: 60px;
+}
+
+form{
+    position: absolute;
+    top: 250px;
+    width: 100px;
+    right: 500px;
+}
+
+form [type = text]{
+    height: 25px;
+    background-color: transparent;
+    border: 1px solid rgb(77, 49, 8);
+}
+
+form [name = message]{
+    height: 150px;
+    width: 300px;
+    background-color: transparent;
+    border: 1px solid rgb(77, 49, 8);
+}
+
+form [type = submit]{
+    position: absolute;
+    top: 30px;
+    left: 180px;
+    background-color: #B29C69;
+    border-radius: 50%;
+    width: 130px;
+    height: 130px;
+    border: 1px solid rgb(58, 58, 58);
+}
